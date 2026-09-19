@@ -7,7 +7,7 @@ description: 通过曼格云 API 按公众号名称采集最近文章、指定�
 
 用户只需说公众号名称、最近篇数或日期范围。不要让用户处理 `ghid`、`collectionId`、页码、游标、SQLite 或命令行。
 
-此技能只调用曼格云 `https://api.we-media.cn`，不得调用次幂数据或混用凭据。凭据仅使用 `WE_MEDIA_API_KEY`；不要回显、记录或提交 API Key。
+此技能只调用曼格云 `https://api.we-media.cn`。凭据仅使用 `WE_MEDIA_API_KEY`；不要回显、记录或提交 API Key。
 
 ## 首次使用
 
