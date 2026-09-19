@@ -1,0 +1,7 @@
+interface:
+  display_name: "曼格云公众号采集"
+  short_description: "按公众号名称采集最近文章或指定日期范围的历史正文并归档"
+  default_prompt: "Use $mangge-wechat-article-collector to 按公众号名称采集最近一篇正文；先查询实时价格并等待确认。"
+
+policy:
+  allow_implicit_invocation: true
